@@ -392,7 +392,7 @@ export default function App() {
             />
 
             <form
-              className="mt-8 grid gap-3 w-full max-w-lg"
+              className="mt-8 grid gap-3 w-full max-w-lg mx-auto"
               onSubmit={(e) => e.preventDefault()}
             >
               <input
