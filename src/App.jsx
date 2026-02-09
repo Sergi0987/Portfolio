@@ -47,7 +47,7 @@ const skillChips = [
   "Vite",
   "APIs",
   "SQL (coursework)",
-  "Figma",
+  "Physical Hardware",
 ];
 
 function SectionTitle({ kicker, title, subtitle }) {
@@ -198,7 +198,7 @@ export default function App() {
                     Availability
                   </p>
                   <p className="mt-2 text-sm text-slate-200">
-                    Open to Front-End roles
+                    Open to Front-End, Back-End, or Full Stack
                   </p>
 
                   <div className="mt-5 space-y-3">
@@ -337,7 +337,7 @@ export default function App() {
             <SectionTitle
               kicker="Toolbox"
               title="Skills"
-              subtitle="What I’m comfortable shipping with."
+              
             />
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -359,7 +359,7 @@ export default function App() {
             <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
               <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-slate-800 to-slate-900 border border-white/10" />
               <p className="mt-3 text-xs text-slate-400">
-                Drop in a headshot or a “workspace” photo later.
+
               </p>
             </div>
 
@@ -384,7 +384,7 @@ export default function App() {
 
         {/* CONTACT */}
         <section id="contact" className="scroll-mt-24 border-t border-white/10">
-          <div className="max-w-6xl mx-auto px-4 py-14">
+          <div className="mt-8 grid gap-3 w-full max-w-lg mx-auto">
             <SectionTitle
               kicker="Get in touch"
               title="Contact"
@@ -420,9 +420,7 @@ export default function App() {
                 Send
               </button>
 
-              <p className="text-xs text-slate-500">
-                (We’ll wire this to Formspree when you’re ready.)
-              </p>
+             <br></br>
             </form>
           </div>
         </section>
