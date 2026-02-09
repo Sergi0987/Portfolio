@@ -228,7 +228,7 @@ export default function App() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-indigo-200">
                       fast, clean
                     </span>{" "}
-                    front-ends that feel premium.
+                    Fullstack that feel premium.
                   </h1>
 
                   <p className="mt-5 text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -383,6 +383,7 @@ export default function App() {
         </section>
 
         {/* CONTACT */}
+        {/*
         <section id="contact" className="scroll-mt-24 border-t border-white/10">
           <div className="mt-8 grid gap-3 w-full max-w-lg mx-auto">
             <SectionTitle
@@ -424,6 +425,7 @@ export default function App() {
             </form>
           </div>
         </section>
+        */}
       </main>
 
       {/* Footer */}
